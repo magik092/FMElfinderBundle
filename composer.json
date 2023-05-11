@@ -16,6 +16,12 @@
             "homepage": "https://github.com/helios-ag/FMElfinderBundle/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/magik092/elFinder"
+        }
+    ],
     "archive": {
       "exclude": ["/tests", "./github"]
     },
@@ -26,7 +32,7 @@
         "symfony/twig-bundle":                 "^4.4 || ^5.0 || ^5.2 || ^6.0",
         "symfony/form":                        "^4.4 || ^5.0 || ^5.2 || ^6.0",
         "symfony/asset":                       "^4.4 || ^5.0 || ^5.2 || ^6.0",
-        "studio-42/elfinder":                  "~2.1"
+        "studio-42/elfinder":                  "dev-dev"
     },
     "require-dev" : {
         "symfony/phpunit-bridge": "^4.1 || ^5.0 || ^5.2 || ^6.0",
